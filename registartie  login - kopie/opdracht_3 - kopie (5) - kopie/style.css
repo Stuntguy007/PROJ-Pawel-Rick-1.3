@@ -1,0 +1,272 @@
+body, ol, ul, li {
+    margin:0;
+    padding:0;
+}
+
+a {
+    margin:0;
+    padding:0;
+    /*font-size:100%;*/
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none;
+}
+
+.main-wrapper{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+body{
+    /*background-color: #ccc;*/
+    background-color: #e2e2e2;
+    font-family: Microsoft YaHei Light;
+}
+
+
+/*DE HEADER*/
+
+header nav {
+    position: fixed;
+     width:100%;
+     height:60px;
+     background-color: #fff;
+ }
+
+header nav ul{
+    float: left;
+}
+
+header nav ul li{
+    float: left;
+    list-style: none;
+}
+
+header nav ul li a{
+    font-size: 16px;
+    color:#111;
+    line-height: 63px;
+}
+
+#logo{
+    padding: 10px 0;
+}
+
+header .nav-login{
+    float: right;
+}
+
+header .nav-login form{
+    float: right;
+    padding: 15px;
+}
+
+#hallo {
+    float: left;
+    width:140px;
+    height:30px;
+    margin-right:10px;
+    font-family: Microsoft YaHei Light;
+    border: none;
+    background-color: #f3f3f3;
+    font-size: 14px;
+    color:#111;
+    cursor: pointer;
+}
+
+#hallo:hover{
+    background-color: #ccc;
+}
+
+.balk-knopies {
+    /*display: block;*/
+    border:none;
+    margin-right: 38px;
+    color:green;
+    line-height: 63px;
+    cursor: pointer;
+}
+
+
+
+/*HEADER CODE STOPT*/
+
+/*DE MAIN CODE START*/
+
+.main-container{
+    padding-top:80px;
+    height: auto;
+ }
+.title{
+    font-size: 40px;
+    color:#111;
+    line-height: 50px;
+    text-align: center;
+    margin:0;
+    padding:0;
+}
+
+.masonry { /* Masonry container */
+    column-count: 4;
+    column-gap: 0;
+    width: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+
+.item { /* Masonry bricks or child elements */
+    width: 100%;
+    padding: 0px;
+    margin: 0px auto;
+}
+.item:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.foto {
+    float: left;
+    margin: 0;
+    width: 100%;
+    height: auto;
+
+}
+/*DE MAIN CODE STOPT*/
+
+
+/*DE CODE VOOR DE FOTO LIJST START*/
+
+/*DE CODE VOOR DE FOTOLIJST STOP*/
+
+
+/*SIGNUP.PHP - LOGIN.PHP*/
+
+.login-wrapper {
+    background-color: white;
+    width: 420px;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+#gedoe {
+    background-image: url("fotos/wall4.jpg");
+    background-size: contain;
+    height: 139px;
+    padding: 16px;
+}
+
+#login-title {
+    color: white;
+}
+
+.signup-form{
+    width:400px;
+    margin:0 auto;
+    padding-top:20px;
+    text-align: center;
+}
+.signup-form button {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width:100%;
+    height:40px;
+    border: none;
+    background-color: #C72425;
+    font-size: 16px;
+    font-weight: bold;
+    color:#fff;
+    cursor:pointer;
+    border-radius: 5px;
+}
+
+.signup-form input {
+    width:90%;
+    height:40px;
+    padding: 0% 5%;
+    margin-bottom:4px;
+    border-radius: 2px;
+    background-color: #fff;
+    font-size: 16px;
+    color:#111;
+    line-height: 40px;
+    border: 1px solid #707070;
+}
+
+.signup-form button:hover {
+    background-color: #961B1C;
+}
+
+.extras {
+    font-weight: 900;
+    font-size:13px;
+}
+
+.extras :hover{
+    text-decoration: underline;
+    color :green;
+}
+
+.terms {
+    font-size: 13px;
+}
+
+
+/*SIGNUP.PHP - LOGIN.PHP*/
+
+/*FORGETPASSWORD.PHP*/
+
+#forgetpass {
+    background-color: #5B5C5F;
+    padding: 20px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.textbox {
+    padding: 10px;
+    color:white;
+    background-color: black;
+    margin-bottom: 15px;
+}
+
+#continue {
+    margin-bottom: 0px;
+    border: 2px solid #353535;
+}
+
+
+/* MESSAGES .INC. PHP*/
+
+.message-error {
+    font-size: 15px;
+    margin-top: 9px;
+    text-align: center;
+    background-color: #f2dede;
+    border: 1px solid #eed3d7;
+    border-radius: 2px;
+    color: #b94a48;
+    left:0;
+    right:0;
+}
+
+.message-success {
+    font-size: 15px;
+    margin-top: 9px;
+    text-align: center;
+    /*background-color: #dff0d8;*/
+    background-color: #c5ffad;
+    border: 1px solid #d6e9c6;
+    border-radius: 2px;
+    color: #468847;
+    left:0;
+    right:0;
+}
